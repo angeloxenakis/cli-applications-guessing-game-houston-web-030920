@@ -21,5 +21,5 @@ def guess_num
 end
 
 def run_guessing_game
-  guessing_cli
+  guess_num
 end
