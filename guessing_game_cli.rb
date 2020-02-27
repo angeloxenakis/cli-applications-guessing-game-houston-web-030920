@@ -1,11 +1,11 @@
 require 'pry'
 
 def get_user_input
-  gets.chomp.to_i
+  gets.chomp
 end 
 
 def generate_num
-  rand(1..6)
+  rand(1..6).to_s
 end
 
 def guessing_cli
