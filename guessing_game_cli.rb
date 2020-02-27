@@ -16,7 +16,7 @@ def guessing_cli
   elsif input == 'exit'
     puts "Goodbye!"
   else
-    puts "Sorry, the computer guessed #{num}."
+    puts "Sorry! the computer guessed #{num}."
   end
 end
 
