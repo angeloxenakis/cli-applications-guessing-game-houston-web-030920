@@ -11,7 +11,7 @@ end
 def guess_num
   input = get_user_input
   num = generate_num
-  if input != num
+  if input == num
     puts "You guessed the correct number!"
   elsif input == 'exit'
     puts "Goodbye!"
