@@ -8,7 +8,7 @@ def generate_num
   rand(1..6)
 end
 
-def guess_num
+def guessing_cli
   input = get_user_input
   num = generate_num
   if input == num
@@ -21,5 +21,5 @@ def guess_num
 end
 
 def run_guessing_game
-  guess_num
+  guessing_cli
 end
