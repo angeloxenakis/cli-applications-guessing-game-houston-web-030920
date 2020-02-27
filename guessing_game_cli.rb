@@ -1,7 +1,7 @@
 require 'pry'
 
 def get_user_input
-  gets.chomp
+  gets.chomp.to_i
 end 
 
 def generate_num
