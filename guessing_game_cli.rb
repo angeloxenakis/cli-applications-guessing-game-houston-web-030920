@@ -10,7 +10,7 @@ end
 
 def guessing_cli
   input = get_user_input
-  num = generate_num - 1
+  num = generate_num + 1
   if input == num
     puts "You guessed the correct number!"
   elsif input == 'exit'
